@@ -29,7 +29,7 @@ nav{
   align-items: center;
   background-color: #2E2E2E;
   width: 100%;
-  height: calc(4vh + 4vw);
+  height: 8vh;
   z-index: 10;
 }
 
@@ -55,6 +55,16 @@ nav{
 .nav-links a:hover{
   color: white;
   transition: 0.3s;
+}
+
+.impressum {
+  width: 100%;
+  overflow: hidden;
+  padding: 1rem;
+  margin-top: 2rem;
+  text-align: justify;
+  display: inline-block
+
 }
 
 .hero {
@@ -216,9 +226,6 @@ notice  {
 }
 
 @media screen and (max-width: 1024px) {
-  nav {
-   min-height: calc(2vh + 2vw);
- }
  .header-icons {
    font-size: 0.6rem;
  }
