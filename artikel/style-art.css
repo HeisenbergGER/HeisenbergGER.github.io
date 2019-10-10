@@ -151,5 +151,8 @@ notice  {
 @media screen and (max-width: 768px) {
   .text-field{
     width: 100%;
+   nav {
+    min-height: calc(2vh + 2vw);
+  }
   }
 }
