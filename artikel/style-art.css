@@ -160,4 +160,7 @@ notice  {
   nav {
    min-height: calc(2vh + 2vw);
  }
+ .header-icons {
+   font-size: 0.6rem;
+ }
 }
