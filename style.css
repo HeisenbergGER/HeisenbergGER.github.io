@@ -68,6 +68,8 @@ nav{
 }
 
 .hero {
+  margin-top: 4rem;
+  min-height: calc(15vh + 15vw);
   background: url('bilder/hero.jpg') center;
   background-size: cover;
   padding: 4rem 2rem;
