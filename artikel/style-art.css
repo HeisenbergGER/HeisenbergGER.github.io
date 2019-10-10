@@ -148,11 +148,16 @@ notice  {
   font-weight: 500;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .text-field{
     width: 100%;
-   nav {
-    min-height: calc(2vh + 2vw);
   }
+  .text-field > h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2rem;
   }
+  nav {
+   min-height: calc(2vh + 2vw);
+ }
 }
