@@ -58,7 +58,6 @@ nav{
 }
 
 .hero {
-  height: 100%;
   background: url('bilder/hero.jpg') center;
   background-size: cover;
   padding: 4rem 2rem;
