@@ -221,3 +221,12 @@ notice  {
   font-size: 14px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 1024px) {
+  nav {
+   min-height: calc(2vh + 2vw);
+ }
+ .header-icons {
+   font-size: 0.6rem;
+ }
+}
