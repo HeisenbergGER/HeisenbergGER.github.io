@@ -68,7 +68,7 @@ nav{
 }
 
 .hero {
-  margin-top: 2rem;
+  width: 100%;
   min-height: calc(20vh + 20vw);
   background: url('bilder/hero.jpg') center;
   background-size: cover;
