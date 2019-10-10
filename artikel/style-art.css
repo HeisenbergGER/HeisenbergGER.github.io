@@ -12,6 +12,11 @@ h1, h2, h3, p {
   font-family: 'Poppins', 'Ubuntu', serif;
 }
 
+.platzhalter {
+  width: 100%;
+  height: calc(4vh + 4vw);
+}
+
 th, td {
   padding: 5px;
   text-align: left;
