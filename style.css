@@ -8,6 +8,10 @@ body {
   background-color: #E3E3E3;
 }
 
+html{
+  height: 100%;
+}
+
 h1, h2, h3, p {
   font-family: 'Poppins','Ubuntu',serif;
 }
