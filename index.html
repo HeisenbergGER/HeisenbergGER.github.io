@@ -66,7 +66,7 @@
           </li>
           <li>
             <figure>
-              <img ci-src="/bilder/thinking.jpg" alt="Mann beim nachdenken">
+              <img ci-src="bilder/thinking.jpg" alt="Mann beim nachdenken">
               <figcaption><h3>Warum über Geld nachdenken?</h3></figcaption>
             </figure>
             <p>
@@ -80,26 +80,17 @@
       </section>
 
       <!-- cloudimage -->
-      <!-- Add lazyload library -->
-   <script>
-     window.lazySizesConfig = window.lazySizesConfig || {};
-     window.lazySizesConfig.init = false;
-   </script>
-   <script src="https://cdn.scaleflex.it/filerobot/js-cloudimage-responsive/lazysizes.min.js"></script>
-
    <!-- Add js-cloudimage-responsiv library -->
-   <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-responsive/2.2.0/js-cloudimage-responsive.min.js"></script>
+  <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-responsive/3.0.0/js-cloudimage-responsive.min.js"></script>
 
    <!-- Initialize cloudimage responsive -->
    <script>
-     var cloudimgResponsive = new window.CIResponsive({
-       token: "akjqypiytm",
-       lazyLoading: false
-     });
-     window.lazySizes.init();
-   </script>
+    const ciResponsive = new window.CIResponsive({
+      token: 'akjqypiytm',
+    });
+</script>
       <!-- cloudimage end -->
-
+"akjqypiytm"
   <!-- footer -->
   <div class="footer">
       <div class="footer-text">
