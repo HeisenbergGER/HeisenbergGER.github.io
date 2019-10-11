@@ -134,7 +134,7 @@ nav{
  .content > ul {
    list-style: none;
    display: grid;
-   grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+   grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
    grid-gap: 1rem;
    text-decoration: none;
  }
@@ -254,15 +254,13 @@ notice  {
  .header-icons {
    font-size: 0.6rem;
  }
- .core {
-   border-radius: 0;
-   width: 100%;
-   margin: auto;
- }
  .info-box {
    display: none;
  }
  .content {
+   border-radius: 0;
+   width: 100%;
+   margin: 0;
    width: 100%;
  }
  .hero {
