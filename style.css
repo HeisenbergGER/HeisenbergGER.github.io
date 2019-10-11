@@ -263,6 +263,7 @@ notice  {
    width: 100%;
  }
  .hero {
+   height: 60vmax;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
