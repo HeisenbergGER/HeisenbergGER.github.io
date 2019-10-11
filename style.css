@@ -106,7 +106,8 @@ nav{
 .core {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 .info-box {
@@ -116,11 +117,9 @@ nav{
   margin-left: 0;
   padding: 2rem;
   width: 20%;
-  min-height: 80vh;
 }
 
 .content {
-  min-height: 80vh;
   background-color: white;
   margin: 2rem;
   padding: 2rem;
