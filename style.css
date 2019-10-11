@@ -84,18 +84,18 @@ nav{
 }
 
 .hero > h1 {
-  font-size: 3vw;
+  font-size: 3vmax;
   padding-bottom: 1rem;
 }
 
 .hero > article > p {
-  font-size: 2vw;
+  font-size: 2vmax;
   font-weight: 200;
 }
 
 .hero > article > a {
-  padding: 1vw;
-  margin-top: 1vw;
+  padding: 1vmax;
+  margin-top: 1vmax;
   background-color: #2E2E2E;
   text-decoration: none;
   color: white;
@@ -103,7 +103,7 @@ nav{
   text-align: center;
   display: inline-block;
   transition: all .3s;
-  font-size: 1vw;
+  font-size: 1vmax;
 }
 
 .core {
