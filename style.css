@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-display: fallback; /* Define how the browser behaves during download */
+}
+
 body {
   background-color: #E3E3E3;
 }
