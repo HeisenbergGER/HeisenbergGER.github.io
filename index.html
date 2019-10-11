@@ -90,9 +90,16 @@
       <!-- Add js-cloudimage-responsiv library -->
       <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-responsive/2.2.0/js-cloudimage-responsive.min.js"></script>
 
+      <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        window.lazySizesConfig.init = false;
+      </script>
+      <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-responsive/3/js-cloudimage-responsive.min.js"></script>
+      <script src="https://cdn.scaleflex.it/filerobot/js-cloudimage-responsive/lazysizes.min.js"></script>
+
       <!-- Initialize cloudimage responsive -->
     <script>
-      var cloudimgResponsive = new window.CIResponsive({
+        const ciResponsive = new window.CIResponsive({
         token: "akjqypiytm",
         lazyLoading: true
       });
