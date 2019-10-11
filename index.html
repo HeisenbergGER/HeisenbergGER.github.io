@@ -81,22 +81,24 @@
 
       <!-- cloudimage -->
       <!-- Add lazyload library -->
-      <script>
-        window.lazySizesConfig = window.lazySizesConfig || {};
-        window.lazySizesConfig.init = false;
-      </script>
-      <script src="https://cdn.scaleflex.it/filerobot/js-cloudimage-responsive/lazysizes.min.js"></script>
+   <script>
+     window.lazySizesConfig = window.lazySizesConfig || {};
+     window.lazySizesConfig.init = false;
+   </script>
+   <script src="https://cdn.scaleflex.it/filerobot/js-cloudimage-responsive/lazysizes.min.js"></script>
 
-      <!-- Add js-cloudimage-responsiv library -->
-      <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-responsive/2.2.0/js-cloudimage-responsive.min.js"></script>
-      <!-- Initialize cloudimage responsive -->
-    <script>
-        var cloudimgResponsive = new window.CIResponsive({
-        token: "akjqypiytm",
-        lazyLoading: false
-      });
-      window.lazySizes.init();
-    </script>
+   <!-- Add js-cloudimage-responsiv library -->
+   <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-responsive/2.2.0/js-cloudimage-responsive.min.js"></script>
+
+   <!-- Initialize cloudimage responsive -->
+   <script>
+     var cloudimgResponsive = new window.CIResponsive({
+       token: "akjqypiytm",
+       baseUrl: "https://cloudimage.public.airstore.io/demo/",
+       lazyLoading: true
+     });
+     window.lazySizes.init();
+   </script>
       <!-- cloudimage end -->
 
   <!-- footer -->
