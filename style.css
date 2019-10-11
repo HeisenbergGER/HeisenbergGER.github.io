@@ -86,12 +86,12 @@ nav{
 }
 
 .hero > h1 {
-  font-size: 3rem;
+  font-size: 3vw;
   padding-bottom: 1rem;
 }
 
 .hero > article > p {
-  font-size: 1.5rem;
+  font-size: 2vw;
   font-weight: 200;
 }
 
@@ -262,8 +262,5 @@ notice  {
    width: 100%;
    margin: 0;
    width: 100%;
- }
- .hero {
-   height: calc(50vw + 50vh);
  }
 }
