@@ -73,7 +73,7 @@ nav{
 
 .hero {
   width: 100%;
-  height: calc(20vh + 20vw);
+  height: calc(20vw + 20vh);
   background-size: cover;
   padding: 4rem 2rem;
   display: grid;
@@ -264,5 +264,8 @@ notice  {
  }
  .content {
    width: 100%;
+ }
+ .hero {
+   height: calc(50vw + 50vh);
  }
 }
