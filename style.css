@@ -69,7 +69,7 @@ nav{
 
 .hero {
   width: 100%;
-  min-height: calc(20vh + 20vw);
+  height: calc(15vh + 15vw);
   background-size: cover;
   padding: 4rem 2rem;
   display: grid;
