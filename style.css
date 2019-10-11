@@ -255,8 +255,7 @@ notice  {
    font-size: 0.6rem;
  }
  .core {
-   display: block;
-   align-items: center;
+  
  }
  .info-box {
    display: none;
