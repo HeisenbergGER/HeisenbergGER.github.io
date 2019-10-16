@@ -251,7 +251,9 @@ notice  {
 }
 
 @media screen and (max-width: 1024px) {
- 
+  .header-icons {
+    font-size: 0.6rem;
+  }
  .info-box {
    display: none;
  }
