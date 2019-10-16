@@ -33,6 +33,7 @@ nav{
   background-color: #2E2E2E;
   width: 100%;
   z-index: 10;
+  overflow-x: hidden;
 }
 
 .nav-links {
@@ -250,9 +251,7 @@ notice  {
 }
 
 @media screen and (max-width: 1024px) {
- .header-icons {
-   font-size: 0.6vmax;
- }
+ 
  .info-box {
    display: none;
  }
