@@ -84,12 +84,12 @@ nav{
 }
 
 .hero > h1 {
-  font-size: 3vw;
+  font-size: calc(2vw + 2vh);
   padding-bottom: 1rem;
 }
 
 .hero > article > p {
-  font-size: 2vw;
+  font-size: calc(1vw + 1vh);
   font-weight: 200;
 }
 
@@ -103,7 +103,7 @@ nav{
   text-align: center;
   display: inline-block;
   transition: all .3s;
-  font-size: 1vw;
+  font-size: calc(0.7vw + 0.7vh);
 }
 
 .core {
