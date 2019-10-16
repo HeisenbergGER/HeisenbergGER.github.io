@@ -184,9 +184,10 @@ nav{
    text-decoration: none;
    color: white;
    border-radius: .25rem;
-   text-align: center;
+   text-align: left;
    display: inline-block;
    transition: all .3s;
+   align-self: flex-end;
  }
 
 
