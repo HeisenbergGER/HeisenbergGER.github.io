@@ -6,6 +6,7 @@
 
 body {
   background-color: #E3E3E3;
+  background-color: white;
 }
 
 h1, h2, h3, p {
@@ -58,7 +59,7 @@ nav{
 
 .text-field {
   margin: 4rem auto;
-  width: 70%;
+  width: 55%;
   min-height: 100%;
   background-color: white;
   padding: calc(3vh + 3vw);
@@ -81,13 +82,14 @@ nav{
 
 .text-field > p {
   text-align: justify;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  line-height: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
 .text-field > table {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: 2rem auto;
   margin-bottom: 2rem;
   font-family: 'Share Tech Mono', monospace;
@@ -97,6 +99,11 @@ nav{
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center;
+}
+
+.comment-section {
+  width: 55%;
+  margin: auto;
 }
 
 
