@@ -13,6 +13,11 @@ h1, h2, h3, p {
   font-family: 'Poppins', 'Ubuntu', serif;
 }
 
+h2 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
 .platzhalter {
   width: 100%;
   height: calc(4vh + 4vw);
@@ -55,6 +60,11 @@ nav{
 .nav-links a:hover{
   color: white;
   transition: 0.3s;
+}
+
+.unterstrich {
+  border: 0.05rem solid lightgrey;
+  margin-bottom: 2rem;
 }
 
 .text-field {
