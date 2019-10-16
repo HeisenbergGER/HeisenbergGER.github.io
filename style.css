@@ -84,12 +84,12 @@ nav{
 }
 
 .hero > h1 {
-  font-size: 3rem;
+  font-size: 3vw;
   padding-bottom: 1rem;
 }
 
 .hero > article > p {
-  font-size: 2rem;
+  font-size: 2vw;
   font-weight: 200;
 }
 
@@ -103,7 +103,7 @@ nav{
   text-align: center;
   display: inline-block;
   transition: all .3s;
-  font-size: 1rem;
+  font-size: 1vw;
 }
 
 .core {
