@@ -393,6 +393,7 @@ notice  {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-top: 4rem;
  }
 
  .hero > h1 {
