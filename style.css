@@ -408,3 +408,10 @@ notice  {
  }
 
 }
+
+@media screen and (max-width: 768px) {
+  .sidenav {
+    width: 70vw;
+  }
+
+  }
