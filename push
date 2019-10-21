@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "V0.5"
+git commit -m "V0.6 - mobile friendly"
 git push -u origin master
