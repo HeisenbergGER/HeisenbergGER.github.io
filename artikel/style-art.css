@@ -184,7 +184,7 @@ notice  {
   }
   .comment-section {
     width: 100%;
-    margin: 4rem;
+    padding: 4rem;
   }
   .text-field > h1 {
     text-align: center;
