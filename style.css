@@ -68,7 +68,6 @@ sidenav {
 
 .sidenav {
   position: fixed;
-
   left: 0;
   top: 0;
   height: 100vh;
@@ -151,6 +150,7 @@ sidenav {
   justify-content: flex-start;
   align-items: center;
   padding: 4rem;
+  height: 100%;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
 
@@ -368,6 +368,9 @@ notice  {
   sidenav {
     display: block;
   }
+  .sidenav {
+    width: 50%;
+  }
   .nav-links {
     display: none;
   }
@@ -408,10 +411,3 @@ notice  {
  }
 
 }
-
-@media screen and (max-width: 768px) {
-  .sidenav {
-    width: 70vw;
-  }
-
-  }
