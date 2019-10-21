@@ -194,4 +194,7 @@ notice  {
  .header-icons {
    font-size: 0.6rem;
  }
+ .text-field > p {
+   line-height: 1rem;
+ }
 }
