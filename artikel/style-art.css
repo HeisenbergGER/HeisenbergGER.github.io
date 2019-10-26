@@ -68,111 +68,44 @@ sidenav {
 }
 
 .sidenav {
+  padding-top: 5rem;
+  background-color: #2E2E2E;
   position: fixed;
   left: 0;
   top: 0;
-  height: 100vh;
-  width: 30vw;
-  z-index: 100;
-  display: block;
-}
-.sidenav input {
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  margin-left: 1em;
-  top: 1em;
-
-  cursor: pointer;
-
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-
-  -webkit-touch-callout: none;
-}
-.sidenav span {
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-
-  background: #cdcdcd;
-  border-radius: 3px;
-
-  z-index: 1;
-  margin-left: 1em;
-  top: 1em;
-
-
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
-}
-
-.sidenav span:first-child
-{
-  transform-origin: 0% 0%;
-}
-
-.sidenav span:nth-last-child(2)
-{
-  transform-origin: 0% 100%;
-}
-
-.sidenav input:checked ~ span
-{
-  opacity: 1;
-  transform: rotate(45deg) translate(-.1em, +.6em);
-  background: brown;
-}
-
-.sidenav input:checked ~ span:nth-last-child(3)
-{
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-.sidenav input:checked ~ span:nth-last-child(2)
-{
-  transform: rotate(-45deg) translate(0, -1px);
-}
-
-.sidenav input:checked ~ ul
-{
-  transform: none;
-}
-
-.nav-links-side {
-  background: #2E2E2E;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 4rem;
   height: 100%;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-
-  transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
-
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  width: 0;
+  z-index: 2;
+  display: block;
+  overflow-x: hidden;
+  transition: 0.5s;
 }
-.nav-links-side a{
+
+.sidenav a{
+  padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 1.2em;
-  font-weight: 500;
   color: #9B9B9B;
-}
-.nav-links-side li{
-  list-style-type: none;
-  margin: 2rem;
+  display: block;
+  transition: 0.3s;
+  padding: 1rem;
+  font-size: 1.5em;
 }
 
-.nav-links-side a:hover{
+.sidenav a:hover {
   color: white;
+  transition: 0.3s;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.burger {
+  color: #9B9B9B;
+  display: none;
 }
 
 .unterstrich {
@@ -291,11 +224,15 @@ notice  {
 }
 
 @media screen and (max-width: 1024px) {
+  .burger {
+    display: block;
+  }
   sidenav {
     display: block;
   }
-  .sidenav {
-    width: 50%;
+
+  .nav-links {
+    display: none;
   }
 
   .text-field{
