@@ -113,6 +113,17 @@ sidenav {
   margin-bottom: 2rem;
 }
 
+.share-field a{
+  margin: 0rem 3rem 2rem 0rem;
+  font-size: 3rem;
+  color: #2E2E2E;
+}
+
+.share-field a:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
 .text-field {
   margin: 4rem auto;
   width: 55%;
