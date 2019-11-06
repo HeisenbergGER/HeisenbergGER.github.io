@@ -168,6 +168,27 @@ sidenav {
   width: 20%;
 }
 
+.newsletter-container input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 10px;
+  margin: 0.2rem;
+  display: none;
+}
+
+.newsletter-container input[type=submit] {
+  background-color: #2E2E2E;
+  color: white;
+  border-radius: 0.5rem;
+  border: 0px;
+  display: none;
+}
+
+.newsletter-container input[type=submit]:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+  display: none;
+}
+
 .content {
   background-color: #E3E3E3;
   margin: 2rem;
